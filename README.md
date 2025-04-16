@@ -1,24 +1,28 @@
 # 📥 Instagram Post Downloader
 
-Um script simples e direto em Python para baixar **posts públicos do Instagram** (fotos, vídeos, carrosséis) a partir da URL ou do código (shortcode) do post.  
-Utiliza a biblioteca [Instaloader](https://instaloader.github.io/).
+A simple and straightforward Python script to download **public Instagram posts** using either the post URL or its shortcode.  
+Built with [Instaloader](https://instaloader.github.io/).
 
 ---
 
-## 📌 Funcionalidades
+## 📌 Features
 
-- 📸 Baixa **fotos** e **vídeos** de posts públicos do Instagram
-- 🎞️ Suporte a **carrosséis** (múltiplas mídias)
-- 💾 Salva os arquivos em uma pasta local `downloads/`
+- 📸 Download **photos** and **videos** from public Instagram posts  
+- 🎞️ Supports **carousel posts** (multiple images or videos)  
+- 🖼️ Downloads **video thumbnails (covers)**  
+- 📝 Downloads the **post caption (description)** as a `.txt` file  
+- 📑 Saves **post metadata** in a `.json` file  
+- 📦 **Zips the downloaded content** for easy access  
+- 💾 Stores everything in a local `downloads/` folder  
 
 ---
 
-## 🛠️ Pré-requisitos
+## 🛠️ Requirements
 
 - Python **3.8+**
 - [Instaloader](https://pypi.org/project/instaloader/)
 
-Para instalar as dependências:
+To install the required package:
 
 ```bash
 pip install instaloader
