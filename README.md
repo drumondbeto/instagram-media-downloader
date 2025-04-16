@@ -11,8 +11,7 @@ Built with [Instaloader](https://instaloader.github.io/).
 - 🎞️ Supports **carousel posts** (multiple images or videos)  
 - 🖼️ Downloads **video thumbnails (covers)**  
 - 📝 Downloads the **post caption (description)** as a `.txt` file  
-- 📑 Saves **post metadata** in a `.json` file  
-- 📦 **Zips the downloaded content** for easy access  
+- 📑 Saves **post metadata** in a **zipped** `.json` file  
 - 💾 Stores everything in a local `downloads/` folder  
 
 ---
